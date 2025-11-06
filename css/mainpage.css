@@ -1,0 +1,37 @@
+/* body styles */
+body {
+    width: 68.5%;
+    margin: auto;
+    background: url(../img/background.png)
+}
+
+body img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* horizontal navigation styles */
+
+nav.horizontal {
+    color: white;
+}
+
+nav.horizontal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: rgb(0, 0, 0);
+}
+
+nav.horizontal ul li {
+    flex: 1;
+    display: block;
+    text-align: center;
+    padding: 3em 5em;
+    text-decoration: none;
+}
+
+nav.horizontal ul li a {
+    
+}
