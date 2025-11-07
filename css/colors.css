@@ -1,0 +1,8 @@
+/* Makes the columns have color */
+.column1 {
+    background-color: rgba(148, 240, 148, 0.288);
+}
+
+.column2 {
+    background-color: rgba(0, 97, 187, 0.46);
+}
