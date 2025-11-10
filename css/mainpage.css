@@ -46,6 +46,21 @@ nav.horizontal ul li a {
   float: left;
   width: 50%;
   text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.column1 iframe {
+    padding-top: 0.56em;
+}
+
+.column2 ul {
+    list-style: none;
+}
+
+.column2 img {
+    width: 100%;
 }
 
 /* Clear floats after the columns */

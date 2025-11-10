@@ -6,3 +6,7 @@
 .column2 {
     background-color: rgba(0, 97, 187, 0.46);
 }
+
+[class*=column] {
+    color: rgb(206, 206, 206);
+}

@@ -1,7 +1,10 @@
+html{
+background-color: #352716;
+background: url(../img/background.png);
+}
 body {
   margin: 0;
   padding: 0;
-  background-color: #000;
   padding-bottom: 100px;
 }
 
@@ -141,7 +144,7 @@ textarea {
   line-height: 60px;
   border-radius: 50%;
   color: #fff;
-  background-color: rgb(27,27,27);
+  background-color: rgb(68, 68, 68);
   cursor: pointer; 
   transition: all .2s ease-in-out;
 }
