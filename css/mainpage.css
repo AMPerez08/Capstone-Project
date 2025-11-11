@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Breath Of The Wild";
+    src: url('../fonts/botwfont.ttf') format('ttf') ;
+}
+
+@font-face {
+    font-family: "Breath Of The Wild";
+    src: url('../fonts/botwfont.woff') format('woff') ;
+}
+
+
 /* body styles */
 body {
     width: 68.5%;
@@ -34,6 +45,7 @@ nav.horizontal ul li {
     text-align: center;
     padding: 3em 5em;
     text-decoration: none;
+    font: 1.1em 'Breath Of The Wild', sans-serif;
 }
 
 nav.horizontal ul li a {
@@ -55,18 +67,29 @@ nav.horizontal ul li a {
     padding-top: 0.56em;
 }
 
+.column2 p {
+    font-size: 0.5em;
+}
+
 .column2 ul {
     list-style: none;
 }
 
-.column2 img {
-    width: 100%;
-}
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.linkredirect {
+    width: 50%;
+    height: 50%;
+}
+
+.zeldaredirect {
+     width: 30%;
+    height: 50%;
 }
 }

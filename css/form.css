@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Breath Of The Wild";
+    src: url('../fonts/botwfont.ttf') format('ttf') ;
+}
+
+@font-face {
+    font-family: "Breath Of The Wild";
+    src: url('../fonts/botwfont.woff') format('woff') ;
+}
+
 html{
 background-color: #352716;
 background: url(../img/background.png);
@@ -5,7 +15,7 @@ background: url(../img/background.png);
 body {
   margin: 0;
   padding: 0;
-  padding-bottom: 100px;
+  padding-bottom: 20em;
 }
 
 #contact {
@@ -16,8 +26,8 @@ body {
 .section-header {
   text-align: center;
   margin: 0 auto;
-  padding: 40px 0;
-  font: 300 60px 'Oswald', sans-serif;
+  padding: 1.4em 0;
+  font: 300 2.6em 'Breath Of The Wild', sans-serif;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -28,51 +38,49 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 20px;
+  padding: 2.2em;
   position: relative;
-  max-width: 840px;
+  max-width: 57em;
 }
 
 /* Left contact page */
 .form-horizontal {
   /*float: left;*/
-  max-width: 400px;
+  max-width: 45em;
   font-family: 'Lato';
-  font-weight: 400;
+  font-weight: 400em;
 }
 
 .form-control, 
 textarea {
-  max-width: 400px;
+  max-width: 40em;
   background-color: #000;
+  font-family: 'Breath Of The Wild', sans-serif;
   color: #fff;
   letter-spacing: 1px;
 }
 
 .send-button {
-  margin-top: 15px;
-  height: 34px;
-  width: 400px;
+  margin-top: 1.5em;
+  height: 2.5em;
+  width: 32em;
+  font-family: 'Breath Of The Wild', sans-serif;
   overflow: hidden;
-  transition: all .2s ease-in-out;
 }
 
 .alt-send-button {
   width: 400px;
   height: 34px;
-  transition: all .2s ease-in-out;
+  font-family: 'Breath Of The Wild', sans-serif;
 }
 
 .send-text {
   display: block;
   margin-top: 10px;
-  font: 700 12px 'Lato', sans-serif;
+  font: 700 12px 'Breath Of The Wild', sans-serif;
   letter-spacing: 2px;
 }
 
-.alt-send-button:hover {
-  transform: translate3d(0px, -29px, 0px);
-}
 
 /* Begin Right Contact Page */
 .direct-contact-container {
@@ -82,37 +90,36 @@ textarea {
 /* Location, Phone, Email Section */
 .contact-list {
   list-style-type: none;
-  margin-left: -30px;
-  padding-right: 20px;
+  margin-left: -3em;
+  padding-right: 2em;
 }
 
 .list-item {
-  line-height: 4;
+  line-height: 4em;
   color: #aaa;
 }
 
 .contact-text {
-  font: 300 18px 'Lato', sans-serif;
+  font: 300 1.3em 'Breath Of The Wild', sans-serif;
   letter-spacing: 1.9px;
   color: #bbb;
 }
 
 .place {
-  margin-left: 62px;
+  margin-left: 4.2em;
 }
 
 .phone {
-  margin-left: 56px;
+  margin-left: 4.2em;
 }
 
 .gmail {
-  margin-left: 53px;
+  margin-left: 4.2em;
 }
 
 .contact-text a {
   color: #bbb;
   text-decoration: none;
-  transition-duration: 0.2s;
 }
 
 .contact-text a:hover {
@@ -124,7 +131,7 @@ textarea {
 /* Social Media Icons */
 .social-media-list {
   position: relative;
-  font-size: 22px;
+  font-size: 2.3em;
   text-align: center;
   width: 100%;
   margin: 0 auto;
@@ -138,9 +145,9 @@ textarea {
 .social-media-list li {
   position: relative; 
   display: inline-block;
-  height: 60px;
-  width: 60px;
-  margin: 10px 3px;
+  height: 2.2em;
+  width: 2.2em;
+  margin: 0.1em 0.1em;
   line-height: 60px;
   border-radius: 50%;
   color: #fff;
@@ -178,7 +185,7 @@ textarea {
 }
 
 .copyright {
-  font: 200 14px 'Oswald', sans-serif;
+  font: 200 14px 'Breath Of The Wild', sans-serif;
   color: #555;
   letter-spacing: 1px;
   text-align: center;
