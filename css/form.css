@@ -30,7 +30,7 @@ body {
   font: 300 2.6em 'Breath Of The Wild', sans-serif;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 6px;
+  letter-spacing: 0.375em;
 }
 
 .contact-wrapper {
@@ -57,34 +57,34 @@ textarea {
   background-color: #000;
   font-family: 'Breath Of The Wild', sans-serif;
   color: #fff;
-  letter-spacing: 1px;
+  letter-spacing: 0.063em;
 }
 
 .send-button {
   margin-top: 1.5em;
   height: 2.5em;
-  width: 32em;
+  width: 25em;
   font-family: 'Breath Of The Wild', sans-serif;
   overflow: hidden;
 }
 
 .alt-send-button {
-  width: 400px;
-  height: 34px;
+  width: 25em;
+  height: 2.125em;
   font-family: 'Breath Of The Wild', sans-serif;
 }
 
 .send-text {
   display: block;
-  margin-top: 10px;
-  font: 700 12px 'Breath Of The Wild', sans-serif;
-  letter-spacing: 2px;
+  margin-top: 0.625em;
+  font: 700 1em 'Breath Of The Wild', sans-serif;
+  letter-spacing: 0.125em;
 }
 
 
 /* Begin Right Contact Page */
 .direct-contact-container {
-  max-width: 400px;
+  max-width: 25em;
 }
 
 /* Location, Phone, Email Section */
@@ -101,7 +101,7 @@ textarea {
 
 .contact-text {
   font: 300 1.3em 'Breath Of The Wild', sans-serif;
-  letter-spacing: 1.9px;
+  letter-spacing: 0.119em;
   color: #bbb;
 }
 
@@ -127,74 +127,6 @@ textarea {
   text-decoration: none;
 }
 
-
-/* Social Media Icons */
-.social-media-list {
-  position: relative;
-  font-size: 2.3em;
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.social-media-list li a {
-  color: #fff;
-}
-
-.social-media-list li {
-  position: relative; 
-  display: inline-block;
-  height: 2.2em;
-  width: 2.2em;
-  margin: 0.1em 0.1em;
-  line-height: 60px;
-  border-radius: 50%;
-  color: #fff;
-  background-color: rgb(68, 68, 68);
-  cursor: pointer; 
-  transition: all .2s ease-in-out;
-}
-
-.social-media-list li:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  border-radius: 50%;
-  opacity: 0;
-  box-shadow: 0 0 0 1px #fff;
-  transition: all .2s ease-in-out;
-}
-
-.social-media-list li:hover {
-  background-color: #fff; 
-}
-
-.social-media-list li:hover:after {
-  opacity: 1;  
-  transform: scale(1.12);
-  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
-}
-
-.social-media-list li:hover a {
-  color: #000;
-}
-
-.copyright {
-  font: 200 14px 'Breath Of The Wild', sans-serif;
-  color: #555;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
-hr {
-  border-color: rgba(255,255,255,.6);
-}
-
 /* Begin Media Queries*/
 @media screen and (max-width: 850px) {
   .contact-wrapper {
@@ -209,16 +141,6 @@ hr {
     margin-top: 60px;
     max-width: 300px;
   }    
-  .social-media-list li {
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-  }
-  .social-media-list li:after {
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-  }
 }
 
 @media screen and (max-width: 569px) {
@@ -241,21 +163,7 @@ hr {
     margin-top: 60px;
     max-width: 280px;
   }  
-  .social-media-list {
-    left: 0;
-  }
-  .social-media-list li {
-    height: 55px;
-    width: 55px;
-    line-height: 55px;
-    font-size: 2rem;
-  }
-  .social-media-list li:after {
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-  }
-  
+
 }
 
 @media screen and (max-width: 410px) {

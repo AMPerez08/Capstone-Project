@@ -1,6 +1,6 @@
 /* Makes the columns have color */
 .column1 {
-    background-color: rgba(148, 240, 148, 0.288);
+    background-color: rgba(148, 240, 148, 0.26);
 }
 
 .column2 {
@@ -9,4 +9,9 @@
 
 [class*=column] {
     color: rgb(206, 206, 206);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.46);
+    color: white;
 }
