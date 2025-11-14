@@ -30,16 +30,37 @@ People would be interested in this product because they may not know the lore of
 
 ## CSS Themes
 ### Fonts and Colors
-- Font for Headings: (Name and Google fonts link)
-- Font for Paragraphs: (EXAMPLE: Roboto, https://fonts.google.com/specimen/Roboto)
-- Background Color: (paste hex code or rgb value here)
-- Font Color: (EXAMPLE: #FFFFFF)
-- Contrast Ratio: (needs to be 4.5 or higher)
+- Font for Headings: (sans-serif)
+- Font for Paragraphs: (sans-serif, "Breath Of The Wild" / botwfont.ttf )
+- Background Color: ( #21305a, #2e426b, #34402a, #404f38, #0b0103, #161111, #fce5c5 )
+- Font Color: ( #FFFFFF, #000020 )
+- Contrast Ratio: (13.44, 9.96, 10.97, 8.77, 20.59, 18.71, 16.8 ) <!-- Listed in same order as background color  -->
 - Include additional colors such as foreground, or different colors for Headings(1-6), Paragraphs, Anchors/Links, etc.
-- Paragraph Font Size (use em or rem, not pixels)
-- Header Font Size (include values for h1-h6, add more font sizes for different sections of your webpage (such as navigation, footer, article, etc.))
+- Paragraph Font Size (1.25em)
+- Header Font Size (1.1em)
 
 ## CSS Ruleset 
+
+.horizontal (Class is used to define the code that makes the page horizontal)
+
+.column 1 (Class is used to define the code that makes up the left column of the homepage)
+
+.column 2 (Class is used to define the code that makes up the right column of the homepage)
+
+[class*=column] (Class is the code that makes up the general style of both column 1 and 2)
+
+.linkredirect (Class is used to define the code that makes up the image that redirects users to links page in the website)
+
+.zeldaredirect (Class does the same thing as .linkredirect but for zelda's image and redirects to zelda's page)
+
+.miphaselephant (Class defines the code that is used for the elephants at the footer of link's and zelda's page)
+
+.containerblocks (Class defines the code used to make up the blocks of content in link's and zelda's page)
+
+.options (This class holds all of the container bases used in Link's and Zelda's pages)
+
+
+
 
 (Include every class name, what it applies to, and what its purpose is)
 

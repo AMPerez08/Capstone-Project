@@ -1,0 +1,247 @@
+	html{
+	    margin: 0em;
+		box-sizing: border-box;
+        scroll-behavior: smooth;
+     }
+
+
+/* header styles */
+   .shiekah {
+    width: auto;
+    text-align: center;
+    background-size: 36%;
+}
+.shiekah > img {
+    border-radius: 10%;
+}
+
+/* header styles ^^^ */
+    body{
+         background-image: url(../img/background.png);
+        }
+
+
+/* footer style vvv */
+
+    .miphaselephant{
+        background-image: url(../img/miphaelephant.png);
+        height: 2.313em;
+        width: 100%;
+        mask-repeat: repeat-x;
+        }
+
+/* container styles */
+
+    .containerblocks {
+        display: flex;
+        flex-wrap: wrap;
+        background: #0061bb75;
+        justify-content: center;
+        flex-direction: column ;
+        width: 100%;
+        padding: 50px 0 50px 0;     
+         }
+            
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+            align-self: center;
+            flex-direction: row ;
+            align-content: stretch;
+            }
+
+            
+        .history {
+            align-self: center;
+            margin: 40px;
+            padding: 1.25em;
+            text-align: center;
+            width: 60%;
+            color: rgb(0, 0, 0);
+            font-size: 1.25em;
+            background-color: bisque;
+            border-radius: 1.25em;
+            box-shadow: 0px 0px 1.25em 0px rgba(0, 0, 0, 40);
+            }
+
+        .containerbase1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin: 40px;
+            padding: 1.25em;
+            /* text-align: center; */
+            width: 40%;
+            height: auto;
+            color: rgb(0, 0, 0);
+            font-size: 1.25em;
+            background-color: bisque;
+            border-radius: 1.25em;
+            box-shadow: 0px 0px 1.25em 0px rgba(0, 0, 0, 40);
+            }
+
+            .containerbase2{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin: 40px;
+            padding: 1.25em;
+            /* text-align: center; */
+            width: 40%;
+            height: auto;
+            color: rgb(0, 0, 0);
+            font-size: 1.25em;
+            background-color: bisque;
+            border-radius: 1.25em;
+            box-shadow: 0px 0px 1.25em 0px rgba(0, 0, 0, 40);
+            }
+
+            .containerbase3{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin: 40px;
+            padding: 1.25em;
+            /* text-align: center; */
+            width: 40%;
+            height: auto;
+            color: rgb(0, 0, 0);
+            font-size: 1.25em;
+            background-color: bisque;
+            border-radius: 1.25em;
+            box-shadow: 0px 0px 1.25em 0px rgba(0, 0, 0, 40);
+            }
+
+            .containerbase4{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin: 40px;
+            padding: 1.25em;
+            /* text-align: center; */
+            width: 40%;
+            height: auto;
+            color: rgb(0, 0, 0);
+            font-size: 1.25em;
+            background-color: bisque;
+            border-radius: 1.25em;
+            box-shadow: 0px 0px 1.25em 0px rgba(0, 0, 0, 40);
+            }
+
+            .containerbase1 > img{
+                border: 10px solid rgba(0, 103, 199, 0.733);
+                border-radius: 1.25em;
+                width: 90%;
+            }
+
+            .containerbase2 > img{
+                border: 10px solid rgba(0, 103, 199, 0.733);
+                border-radius: 1.25em;
+                width: 80%;
+                height: auto;
+            }
+
+            .containerbase3 > img{
+                border: 10px solid rgba(0, 103, 199, 0.733);
+                border-radius: 1.25em;
+                width: 90%;
+            }
+            .containerbase4 > img{
+                border: 10px solid rgba(0, 103, 199, 0.733);
+                border-radius: 1.25em;
+                width: 90%;
+            }
+            /* margin-bottom: 40px; */
+            .containerbase1 > p{
+                padding: 2%;
+            }
+            .containerbase2 > p{
+                padding: 2%;
+            }
+            .containerbase3 > p{
+                padding: 2%;
+            }
+            .containerbase4 > p{
+                padding: 2%;
+            }
+            
+            /* Responsive */
+
+            @media (max-width:480px){
+                      
+                .history{
+                    width: auto;
+                    font-size: 1.25em;
+                   border-radius: 1.25em;
+                }
+                .containerbase1{
+                    width: 80%;
+                    font-size: 1.25em;
+                }
+
+                .containerbase2{
+                    width: 80%;
+                    font-size: 1.25em;
+                }
+
+                .containerbase3{
+                    width: 80%;
+                    font-size: 1.25em;
+                    }
+
+
+                .header {
+                    width: auto;
+                }
+
+                .containerbase4{
+                    width: 80%;
+                    font-size: 1.25em;
+
+                }
+
+                .options{
+                    flex-direction: row ;
+                    width: auto;
+
+                }
+            }
+
+            @media (min-width:481px) and (max-width:900px){
+                    
+                .options{
+                    flex-direction: row ;
+                    width: auto;
+  
+                }
+                .history{
+                    width: 75%;
+                    font-size: 1.25em;
+   
+                }
+
+                .containerbase1{
+                    width: 90%;
+                    font-size: 1.25em;
+                }
+
+                .containerbase2{
+                    width: 90%;
+                    font-size: 1.25em;
+                    
+                }
+                .containerbase3{
+                    width: 90%;
+                    font-size: 1.25em;
+                    
+                }
+                .containerbase4{
+                    width: 90%;
+                    font-size: 1.25em;
+                    
+                }
+            }
