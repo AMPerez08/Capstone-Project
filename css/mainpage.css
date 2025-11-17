@@ -51,6 +51,11 @@ nav.horizontal ul li {
 nav.horizontal ul li a {
     color: white;
     text-decoration: none;
+    font-size: 1.72em;
+}
+
+nav.horizontal li:hover {
+    background-color: #103458;
 }
 
 /* Column styles  */
@@ -62,6 +67,7 @@ nav.horizontal ul li a {
   font-weight: 700;
   font-style: italic;
 }
+
 
 .column1 iframe {
     padding-top: 0.56em;
