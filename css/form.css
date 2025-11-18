@@ -160,14 +160,16 @@ textarea {
   } 
   
   .direct-contact-container {
-    margin-top: 60px;
-    max-width: 280px;
+    margin-top: 40px;
+    max-width: 500px;
+    font-size: 20px;
+    text-align: left;
   }  
 
 }
 
 @media screen and (max-width: 410px) {
   .send-button {
-    width: 99%;
+    width:50%;
   }
 }

@@ -22,9 +22,9 @@ People would be interested in this product because they may not know the lore of
 <!-- Write 2-3 sentences explaining why they would be interested in this product -->
 
 ## Assigning Tasks
-- Host: Name, GitHub Repo link
-- Person 1: CSS, Responsive Webdesign, Images, Additional Art
-- Person 2: HTML, Responsive Webdesign, Images, Additional Art
+- Host: Aleyah, [GitHub Repo link](https://github.com/AMPerez08/Capstone-Project)
+- Aleyah: CSS, Responsive Webdesign, Images, Additional Art
+- Josiah: HTML, Images, Additional Art
 
 ## Website Layout
 
