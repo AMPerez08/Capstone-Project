@@ -25,38 +25,6 @@ body img {
     width: 100%;
 }
 
-/* horizontal navigation styles */
-
-nav.horizontal {
-    color: white;
-}
-
-nav.horizontal ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    background: rgb(0, 0, 0);
-}
-
-nav.horizontal ul li {
-    flex: 1;
-    display: block;
-    text-align: center;
-    padding: 3em 5em;
-    text-decoration: none;
-    font: 1.1em 'Breath Of The Wild', sans-serif;
-}
-
-nav.horizontal ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.72em;
-}
-
-nav.horizontal li:hover {
-    background-color: #103458;
-}
 
 /* Column styles  */
 [class*=column] {
@@ -107,6 +75,10 @@ footer {
 
 footer h1 {
     text-decoration: underline;
+}
+
+footer a {
+    color: rgb(125, 207, 255);
 }
 
 
